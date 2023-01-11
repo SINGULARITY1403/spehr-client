@@ -6,8 +6,6 @@ console.log(INFURA_PROJECT_ID);
 console.log(INFURA_ACCESS_TOKEN);
 
 const infuraURL = `https://goerli.infura.io/v3/${INFURA_PROJECT_ID}`;
-// const infuraURL = `https://dev.kardiachain.io/`;
-// const infuraURL = `https://rpc.kardiachain.io/`;
 
 const web3 = new Web3(infuraURL);
 window.customWeb3 = web3;
